@@ -12,18 +12,8 @@ public:
 
      float x;
      void XuatNghiem();
-
-     PTbac1();
-     ~PTbac1();
 };
-PTbac1::PTbac1()
-{
 
-}
-PTbac1::~PTbac1()
-{
-
-}
 void PTbac1::Nhap()
 {
     cout<<"\nPhuong trinh co dang ax + b = 0";

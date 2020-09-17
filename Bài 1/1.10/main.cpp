@@ -11,18 +11,8 @@ private:
 public:
     void Nhap();
     void Xuat();
-
-    HANG();
-    ~HANG();
 };
-HANG::HANG()
-{
 
-}
-HANG::~HANG()
-{
-
-}
 void HANG::Nhap()
 {
     cin.ignore();

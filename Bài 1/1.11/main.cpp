@@ -12,18 +12,8 @@ private:
 public:
     void Nhap();
     void Xuat();
-
-    SACH();
-    ~SACH();
 };
-SACH::SACH()
-{
 
-}
-SACH::~SACH()
-{
-
-}
 void SACH::Nhap()
 {
     cin.ignore();

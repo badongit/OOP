@@ -14,18 +14,8 @@ private:
 public:
     void Nhap();
     void Xuat();
-
-    HocSinh();
-    ~HocSinh();
 };
-HocSinh::HocSinh()
-{
 
-}
-HocSinh::~HocSinh()
-{
-
-}
 void HocSinh::Nhap()
 {
     cout<<"\n\t\t\t========== NHAP THONG TIN HOC SINH ==========\n";

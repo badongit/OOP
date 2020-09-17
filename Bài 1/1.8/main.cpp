@@ -14,18 +14,7 @@ public:
     void Nhap();
     void Xuat();
     unsigned long int tinhLuong();
-
-    CanBo();
-    ~CanBo();
 };
-CanBo::CanBo()
-{
-
-}
-CanBo::~CanBo()
-{
-
-}
 void CanBo::Nhap()
 {
     cout<<"\nNhap ma can bo : ";

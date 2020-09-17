@@ -4,43 +4,32 @@ using namespace std;
 class HinhThang
 {
 private:
-    float daybe;
-    float daylon;
-    float chieucao;
+    float dayBe;
+    float dayLon;
+    float chieuCao;
 public:
-    float dientich();
-
+    float dienTich();
     void Nhap();
-
-    HinhThang();
-    ~HinhThang();
 };
 void HinhThang::Nhap()
 {
     cout<<"\nNhap day lon : ";
-    cin>>daylon;
+    cin>>dayLon;
     cout<<"\nNhap day be : ";
-    cin>>daybe;
+    cin>>dayBe;
     cout<<"\nNhap chieu cao : ";
-    cin>>chieucao;
+    cin>>chieuCao;
 }
-float HinhThang::dientich()
+float HinhThang::dienTich()
 {
-    return ((daybe+daylon)*chieucao)/2;
+    return ((dayBe+dayLon)*chieuCao)/2;
 }
-HinhThang::HinhThang()
-{
 
-}
-HinhThang::~HinhThang()
-{
-
-}
 int main()
 {
     HinhThang ht;
     cout<<"\n\t\t============= NHAP THONG SO HINH THANG ============= \n";
     ht.Nhap();
-    cout<<"\nDien tich hinh thang la : "<<ht.dientich();
+    cout<<"\nDien tich hinh thang la : "<<ht.dienTich();
     return 0;
 }

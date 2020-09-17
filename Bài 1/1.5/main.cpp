@@ -10,21 +10,10 @@ private:
     float p;
 public:
     void Nhap();
-
     float chuvi();
     float dientich();
-
-    TamGiac();
-    ~TamGiac();
 };
-TamGiac::TamGiac()
-{
 
-}
-TamGiac::~TamGiac()
-{
-
-}
 void TamGiac::Nhap()
 {
     cout<<"\nNhap 3 canh cua tam giac ";

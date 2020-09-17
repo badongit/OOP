@@ -5,42 +5,31 @@ using namespace std;
 class HinhTron
 {
 private:
-    float bankinh;
+    float banKinh;
 public:
-    float chuvi();
-    float dientich();
-
-    void Nhap();
-
-    HinhTron();
-    ~HinhTron();
+    float chuVi();
+    float dienTich();
+    void nhap();
 };
-void HinhTron::Nhap()
+void HinhTron::nhap()
 {
     cout<<"\nNhap ban kinh hinh tron : ";
-    cin>>bankinh;
+    cin>>banKinh;
 }
-float HinhTron::chuvi()
+float HinhTron::chuVi()
 {
-    return 2*pi*bankinh;
+    return 2*pi*banKinh;
 }
-float HinhTron::dientich()
+float HinhTron::dienTich()
 {
-    return pi*bankinh*bankinh;
+    return pi*banKinh*banKinh;
 }
-HinhTron::HinhTron()
-{
 
-}
-HinhTron::~HinhTron()
-{
-
-}
 int main()
 {
     HinhTron ht;
-    ht.Nhap();
-    cout<<"\nChu vi hinh tron : "<<ht.chuvi();
-    cout<<"\nDien tich hinh tron : "<<ht.dientich();
+    ht.nhap();
+    cout<<"\nChu vi hinh tron : "<<ht.chuVi();
+    cout<<"\nDien tich hinh tron : "<<ht.dienTich();
     return 0;
 }

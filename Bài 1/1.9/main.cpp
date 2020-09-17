@@ -12,18 +12,8 @@ public:
 
     float DIENTICH();
     float CHUVI();
-
-    HCN();
-    ~HCN();
 };
-HCN::HCN()
-{
 
-}
-HCN::~HCN()
-{
-
-}
 void HCN::NHAP()
 {
     cout<<"\nNhap chieu dai : ";

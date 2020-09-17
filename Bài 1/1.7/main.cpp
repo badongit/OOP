@@ -11,18 +11,7 @@ private:
 public:
     void Nhap();
     void Xuat();
-
-    SINHVIEN();
-    ~SINHVIEN();
 };
-SINHVIEN::SINHVIEN()
-{
-
-}
-SINHVIEN::~SINHVIEN()
-{
-
-}
 void SINHVIEN::Nhap()
 {
     cout<<"\nNhap ma sinh vien : ";

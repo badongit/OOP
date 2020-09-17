@@ -16,18 +16,8 @@ public:
     float x1;
     float x2;
     void XuatNghiem();
-
-    PhuongTrinhBac2();
-    ~PhuongTrinhBac2();
 };
-PhuongTrinhBac2::PhuongTrinhBac2()
-{
 
-}
-PhuongTrinhBac2::~PhuongTrinhBac2()
-{
-
-}
 void PhuongTrinhBac2::Nhap()
 {
     cout<<"\nPhuong trinh bac 2 co dang ax^2 + bx + c = 0";
